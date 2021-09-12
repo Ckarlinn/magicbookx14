@@ -1,0 +1,94 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="683" scrolly="331.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="2~~!UGRt#Jeh/GQ)1,9R" x="-690" y="-330">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="main" type="MainTab" active="true" scrollx="683" scrolly="331.5" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="setTimer" id="^Wp)$,Wd9v9kGHN(JEq;" x="-614" y="-187">
+      <value name="ID">
+        <shadow type="text" id="{RjsfYt!n:~wTMCg5a{a">
+          <field name="TEXT">rotate</field>
+        </shadow>
+      </value>
+      <value name="VALUE">
+        <shadow type="math_number" id="N`P%Dd$6GQQMfIn`XUY0">
+          <field name="NUM">6</field>
+        </shadow>
+      </value>
+      <value name="REPEAT">
+        <shadow type="math_number" id="}*C?+{r/qT%zWIgMhpQS">
+          <field name="NUM">Infinity</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="v#,otNj~yWDJ#5z8rASq">
+          <field name="ON_OFF">ON</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="G]V!$A$=;w(,NL|Jzc=j">
+              <field name="NUM">2</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="-`bQVbL~v6LVI,8AMjb)" x="-610" y="-30">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="h*2J,v1V~![bLo.306xF">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="allObjectList" id=";KMK(fcW=%_1%UP,p?-O"/>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="(6,$MeAg=;j`td6po)ee">
+          <field name="ON_OFF">ON</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="[0}$rgrp~zSXlGcX^tb4">
+              <field name="NUM">2</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setTimer" id="0d|C*(sslTiN~pBUbK?N">
+              <value name="ID">
+                <shadow type="text" id="eF3Od,9Y+qM34%4lf^[|">
+                  <field name="TEXT">rotate</field>
+                </shadow>
+              </value>
+              <value name="VALUE">
+                <shadow type="math_number" id="8Cv*:5rowcMr,*+,2)W)">
+                  <field name="NUM">6</field>
+                </shadow>
+              </value>
+              <value name="REPEAT">
+                <shadow type="math_number" id="g$EN(dP#u^*q6H#dH:ya">
+                  <field name="NUM">Infinity</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="autoRotateCamera" id="^;^ygo.#ts)FB:@Xk|jb">
+                  <field name="ON_OFF">ON</field>
+                  <value name="SPEED">
+                    <shadow type="math_number" id="Khe4QZeFr*?QZQXR(c*l">
+                      <field name="NUM">2</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="28" viewport-w="614.4" viewport-h="369.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
