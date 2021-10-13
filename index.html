@@ -151,7 +151,9 @@ Las funciones y especificaciones (incluyendo pero no limitando la apariencia, el
     </div>
   </div>
   <p style="display: none;">Selecciono el estado de <strong id="state">Mexico </strong></p>
-  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <a slot="display: none;" id="ancleWord" href="https://wa.me/525612199324?text=Me interesa los earbuds están chulos"
+  target="_blank">Ventas</a>
+<!--   <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -201,6 +203,26 @@ Las funciones y especificaciones (incluyendo pero no limitando la apariencia, el
         </div>
       </div>
     </div>
+  </div> -->
+
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Paises - Estados</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <label for="">Pais</label>
+          <select id="dropdownCountries" class="form-control mb-4"></select>
+          <label for="">Estado</label>
+          <select id="dropdownStates" class="form-control">
+            <option value="000" selected>Selecciona un Estado</option>
+          </select>
+
+        </div>
+      </div>
+    </div>
   </div>
 
 
@@ -244,45 +266,7 @@ Las funciones y especificaciones (incluyendo pero no limitando la apariencia, el
     </div>
   </div>
 
-  <script>
-    //Defines variables
-    let myModal = new bootstrap.Modal(document.getElementById("myModal"))
-    let myInfo = new bootstrap.Modal(document.getElementById("prueba"))
-    let dropdown = document.getElementById("dropdownStates")
-    let ancleWord = document.getElementById("ancleWord")
-    let state = document.getElementById('state')
-
-
-//On load the page
-/*window.onload = () => {
-  myModal.show()
-}*/
-
-    function openModal() {
-      myModal.show()
-    }
-
-    function openInfo() {
-      myInfo.show()
-    }
-
-    //Event that verify the dropdown
-    dropdown.addEventListener("change", (e) => {
-      
-      let numbers = parseInt(e.target.value)
-      let stateWord= e.target.selectedOptions[0].text;
-      //Change the state in description
-      if(stateWord ==='Estado')
-        state.innerText= 'Mexico'
-      else
-        state.innerText= stateWord;
-      
-      //Change the href and hide the modal
-      let link = location.href=`https://wa.me/${numbers}?text=¡Hola!, me gustaría conocer más sobre la HONOR MagicBook X 14.`
-      ancleWord.setAttribute("href", link)
-      myModal.hide()
-    });
-  </script>
+ <script src="pais.js"></script>
 
   <script>
     var x = document.getElementById("myAudio"); 
