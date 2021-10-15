@@ -311,7 +311,7 @@ display: none;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
         width: 100%;
         position: fixed;
         bottom: 0;
@@ -397,6 +397,8 @@ display: none;
         justify-content: center;
         align-items: center;
         height: 120px;
+        width: 50px;
+        padding: 0 !important;
     }
     .btn p, .btn button, .btn a {
         padding: 0;
