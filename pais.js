@@ -1,293 +1,294 @@
 //Data 
 const countries = [
-    {
-      value:1,
-      name:"Mexico",
-      states:[
+  {
+    value:1,
+    name:"México",
+    states:[
+      {
+        value:525580683980,
+        name:"Aguascalientes"
+      },
+      {
+        value:525579614320,
+        name:"Baja california"
+      },
+
+      {
+        value:525579614320,
+        name:"Baja california sur"
+      },
+      {
+        value:525580684679,
+        name:"Campeche"
+      },
+      {
+        value:525579614396,
+        name:"Coahuila"
+      },
+      {
+        value:525580230675,
+        name:"CDMX - zona norte"
+      },
+      {
+        value:525580230664,
+        name:"CDMX - zona oriente"
+      },
+      {
+        value:525579614396,
+        name:"CDMX - zona poniente"
+      },
+      {
+        value:525580683961,
+        name:"CDMX - zona sur"
+      },
+      {
+        value:525580684679,
+        name:"Chiapas"
+      },
+      {
+        value:525579614320,
+        name:"Chihuahua"
+      },
+      {
+        value:525580683980,
+        name:"Coahuila"
+      },
+      {
+        value:525579614320,
+        name:"Colima"
+      },
+      {
+        value:525579614320,
+        name:"Durango"
+      },
+      {
+          value:525580230675,
+          name:"Estado de México"
+        },
         {
           value:525580683980,
-          name:"AGUASCALIENTES"
+          name:"Guanajuato"
+        },
+        {
+          value:525580682224,
+          name:"Guerrero"
         },
         {
           value:525579614320,
-          name:"BAJA CALIFORNIA"
-        },
-
-        {
-          value:525579614320,
-          name:"BAJA CALIFORNIA SUR"
-        },
-        {
-          value:525580684679,
-          name:"CAMPECHE"
-        },
-        {
-          value:525579614396,
-          name:"COAHUILA"
+          name:"Durango"
+        },                                      
+      {
+        value:525580230675,
+        name:"Hidalgo"
+      },
+      {
+          value:525580683980,
+          name:"Jalisco"
         },
         {
-          value:525580230675,
-          name:"CDMX - ZONA NORTE"
-        },
-        {
-          value:525580230664,
-          name:"CDMX - ZONA ORIENTE"
-        },
-        {
-          value:525579614396,
-          name:"CDMX - ZONA PONIENTE"
+          value:525580683980,
+          name:"Michoacán"
         },
         {
           value:525580683961,
-          name:"CDMX - ZONA SUR"
-        },
-        {
-          value:525580684679,
-          name:"CHIAPAS"
-        },
-        {
-          value:525579614320,
-          name:"CHIHUAHUA"
+          name:"Morelos"
         },
         {
           value:525580683980,
-          name:"COAHUILA"
+          name:"Nayarit"
         },
         {
           value:525579614320,
-          name:"COLIMA"
+          name:"Nuevo león"
+        },
+        {
+          value:525580230655,
+          name:"Oaxaca"
+        },
+        {
+          value:525580682224,
+          name:"Puebla"
+        },
+        {
+          value:525580683980,
+          name:"Querétaro"
+        },
+        {
+          value:525580684679,
+          name:"Quintana roo"
+        },
+        {
+          value:525580683980,
+          name:"San luis potosí"
+        },
+        {
+          value:525580683980,
+          name:"Sinaloa"
         },
         {
           value:525579614320,
-          name:"DURANGO"
+          name:"Sonora"
         },
         {
-            value:525580230675,
-            name:"ESTADO DE MÉXICO"
-          },
-          {
-            value:525580683980,
-            name:"GUANAJUATO"
-          },
-          {
-            value:525580682224,
-            name:"GUERRERO"
-          },
-          {
-            value:525579614320,
-            name:"DURANGO"
-          },                                      
-        {
-          value:525580230675,
-          name:"HIDALGO"
+          value:525580684679,
+          name:"Tabasco"
         },
         {
-            value:525580683980,
-            name:"JALISCO"
-          },
-          {
-            value:525580683980,
-            name:"MICHOACÁN"
-          },
-          {
-            value:525580683961,
-            name:"MORELOS"
-          },
-          {
-            value:525580683980,
-            name:"NAYARIT"
-          },
-          {
-            value:525579614320,
-            name:"NUEVO LEÓN"
-          },
-          {
-            value:525580230655,
-            name:"OAXACA"
-          },
-          {
-            value:525580682224,
-            name:"PUEBLA"
-          },
-          {
-            value:525580683980,
-            name:"QUERÉTARO"
-          },
-          {
-            value:525580684679,
-            name:"QUINTANA ROO"
-          },
-          {
-            value:525580683980,
-            name:"SAN LUIS POTOSÍ"
-          },
-          {
-            value:525580683980,
-            name:"SINALOA"
-          },
-          {
-            value:525579614320,
-            name:"SONORA"
-          },
-          {
-            value:525580684679,
-            name:"TABASCO"
-          },
-          {
-            value:525580230655,
-            name:"TAMAULIPAS"
-          },
-          {
-            value:525580682224,
-            name:"TLAXCALA"
-          },
-          {
-            value:525580230655,
-            name:"VERACRUZ"
-          },
-          {
-            value:525580684679,
-            name:"YUCATÁN"
-          },
-          {
-            value:525580683980,
-            name:"ZACATECAS"
-          },          
-      ]
-    },
-     {
-      value:2,
-      name:"Bolivia",
+          value:525580230655,
+          name:"Tamaulipas"
+        },
+        {
+          value:525580682224,
+          name:"Tlaxcala"
+        },
+        {
+          value:525580230655,
+          name:"Veracruz"
+        },
+        {
+          value:525580684679,
+          name:"Yucatán"
+        },
+        {
+          value:525580683980,
+          name:"Zacatecas"
+        },          
+    ]
+  },
+   {
+    value:2,
+    name:"Bolivia",
+    states:[
+     /*  {
+        value:591,
+        name:"Santa Cruz"
+      },
+      {
+        value:591,
+        name:"Cochabamba"
+      },
+      {
+        value:591,
+        name:"La Paz"
+      }, */
+    ]
+  },
+  {
+      value:3,
+      name:"Colombia",
       states:[
-        {
+/*           {
           value:591,
           name:"Santa Cruz"
-        },
-        {
+        }, */
+/*           {
           value:591,
           name:"Cochabamba"
-        },
-        {
+        }, */
+/*           {
           value:591,
           name:"La Paz"
-        },
+        }, */
       ]
     },
     {
-        value:3,
-        name:"Colombia",
-        states:[
+      value:3,
+      name:"Chile",
+      states:[
 /*           {
-            value:591,
-            name:"Santa Cruz"
-          }, */
+          value:591,
+          name:"Santa Cruz"
+        }, */
 /*           {
-            value:591,
-            name:"Cochabamba"
-          }, */
+          value:591,
+          name:"Cochabamba"
+        }, */
 /*           {
-            value:591,
-            name:"La Paz"
-          }, */
-        ]
-      },
-      {
-        value:3,
-        name:"Chile",
-        states:[
+          value:591,
+          name:"La Paz"
+        }, */
+      ]
+    },
+    {
+      value:3,
+      name:"Ecuador",
+      states:[
 /*           {
-            value:591,
-            name:"Santa Cruz"
-          }, */
+          value:591,
+          name:"Santa Cruz"
+        }, */
 /*           {
-            value:591,
-            name:"Cochabamba"
-          }, */
+          value:591,
+          name:"Cochabamba"
+        }, */
 /*           {
-            value:591,
-            name:"La Paz"
-          }, */
-        ]
-      },
-      {
-        value:3,
-        name:"Ecuador",
-        states:[
+          value:591,
+          name:"La Paz"
+        }, */
+      ]
+    },
+    {
+      value:3,
+      name:"Guatemala",
+      states:[
 /*           {
-            value:591,
-            name:"Santa Cruz"
-          }, */
+          value:591,
+          name:"Santa Cruz"
+        }, */
 /*           {
-            value:591,
-            name:"Cochabamba"
-          }, */
+          value:591,
+          name:"Cochabamba"
+        }, */
 /*           {
-            value:591,
-            name:"La Paz"
-          }, */
-        ]
-      },
-      {
-        value:3,
-        name:"Guatemala",
-        states:[
+          value:591,
+          name:"La Paz"
+        }, */
+      ]
+    },
+    {
+      value:3,
+      name:"Panamá",
+      states:[
 /*           {
-            value:591,
-            name:"Santa Cruz"
-          }, */
+          value:591,
+          name:"Santa Cruz"
+        }, */
 /*           {
-            value:591,
-            name:"Cochabamba"
-          }, */
+          value:591,
+          name:"Cochabamba"
+        }, */
 /*           {
-            value:591,
-            name:"La Paz"
-          }, */
-        ]
-      },
-      {
-        value:3,
-        name:"Panamá",
-        states:[
+          value:591,
+          name:"La Paz"
+        }, */
+      ]
+    },
+    {
+      value:3,
+      name:"Perú",
+      states:[
 /*           {
-            value:591,
-            name:"Santa Cruz"
-          }, */
+          value:591,
+          name:"Santa Cruz"
+        }, */
 /*           {
-            value:591,
-            name:"Cochabamba"
-          }, */
+          value:591,
+          name:"Cochabamba"
+        }, */
 /*           {
-            value:591,
-            name:"La Paz"
-          }, */
-        ]
-      },
-      {
-        value:3,
-        name:"Perú",
-        states:[
-/*           {
-            value:591,
-            name:"Santa Cruz"
-          }, */
-/*           {
-            value:591,
-            name:"Cochabamba"
-          }, */
-/*           {
-            value:591,
-            name:"La Paz"
-          }, */
-        ]
-      }
-  ]
-  
+          value:591,
+          name:"La Paz"
+        }, */
+      ]
+    }
+]
+
 // Bolivia, Colombia, Chile, Ecuador, Guatemala, México, Panamá y Perú
 
 
   //Defines variables
   let myModal = new bootstrap.Modal(document.getElementById("myModal"))
+  let myInfo = new bootstrap.Modal(document.getElementById("prueba"))
   let dropdownStates = document.getElementById("dropdownStates")
   let dropdownCountries = document.getElementById("dropdownCountries")
   let ancleWord = document.getElementById("ancleWord")
@@ -302,6 +303,10 @@ const countries = [
   
   function openModal() {
     myModal.show()
+  }
+
+  function openInfo() {
+    myInfo.show()
   }
   
   //Event that verify the dropdown
